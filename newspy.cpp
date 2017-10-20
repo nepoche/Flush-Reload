@@ -89,7 +89,7 @@ uint32_t subWord(uint32_t word) {
 
 int main()
 {
-  int fd = open("/usr/lib/libcrypto.so", O_RDONLY);
+  int fd = open("/usr/local/lib/libcrypto.so", O_RDONLY);
   size_t size = lseek(fd, 0, SEEK_END);
   if (size == 0)
     exit(-1);
