@@ -65,6 +65,6 @@ appropriate version of OpenSSL. To do this, type in terminal:
 
 The command for compiling the newspy.c file is:
 
-    g++ newspy.c -o newspy -I/usr/local/include/ssl -L/usr/local/lib -lcrypto
+    g++ newspy.cpp -o newspy -I/usr/local/include/ssl -L/usr/local/lib -lcrypto
     
 The output should be equal to the key specified in the newspy.c file.
